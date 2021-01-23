@@ -33,13 +33,13 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background-image: url("../images/IMG_3873-HDR.jpg");
-   /* background-image: url("../images/header.png"); */
-   /* background: #161415 url(background="../images/portfolio/header.png") no-repeat top center; */
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
    overflow: hidden;
+   background: #0F2027;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to left, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to left, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 /* vertically center banner section */
@@ -189,7 +189,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2B2B2B;
+   background: #0F2027;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -205,7 +205,7 @@ ul#nav li.current a { color: #F06000; }
 }
 #about p {
    line-height: 30px;
-   color: #7A7A7A;
+   color: #ABABAB;
 }
 #about .profile-pic {
    position: relative;
@@ -426,7 +426,7 @@ ul#nav li.current a { color: #F06000; }
    letter-spacing: 1px;
    text-align: center;
    margin-bottom: 48px;
-   color: #95A3A3;
+   color: #474c4c;
 }
 /* Portfolio Content */
 #portfolio-wrapper .columns { margin-bottom: 36px; }
