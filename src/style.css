@@ -572,6 +572,7 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--text-h); outlin
 .upcoming-name { text-decoration: underline; }
 .social-link { position: relative; }
 .social-link::after { content: ''; position: absolute; inset: -3px; min-width: 24px; min-height: 24px; }
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; scroll-behavior: auto !important; }
 }
