@@ -1,0 +1,245 @@
+/* @font-face {
+  font-family: 'Arbi Custom';
+  src: url('../src/assets/arbi-custom-font.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+.resume-heading h1 {
+  font-family: 'Arbi Custom', var(--heading);
+  font-weight: 400;
+} */
+
+
+
+body.resume-page {
+  height: auto;
+  min-height: 100svh;
+  max-width: 760px;
+  padding: 28px 5vw 24px;
+  gap: 44px;
+  font-size: 16px;
+  line-height: 1.65;
+}
+
+.resume-toolbar {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 20px;
+  font-size: 14px;
+}
+
+.resume-toolbar a,
+.resume-footer a {
+  text-underline-offset: 4px;
+}
+
+.save-menu {
+  position: relative;
+}
+
+.save-menu summary {
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  padding: 8px 0;
+}
+
+.save-menu summary:focus-visible {
+  outline: 2px solid var(--text-h);
+  outline-offset: 4px;
+}
+
+.save-options {
+  position: absolute;
+  right: 0;
+  top: 100%;
+  width: 240px;
+  padding: 8px;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  z-index: 5;
+}
+
+.save-options a,
+.save-options button {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 12px;
+  text-align: left;
+  color: var(--text);
+  font: inherit;
+  background: none;
+  border: 0;
+  cursor: pointer;
+  text-underline-offset: 3px;
+}
+
+.save-options a:hover,
+.save-options button:hover {
+  color: var(--text-h);
+  background: var(--social-bg);
+}
+
+.resume-page main {
+  width: 100%;
+}
+
+.resume-heading {
+  display: block;
+  padding: 0;
+  margin: 0 0 36px;
+}
+
+.resume-heading h1 {
+  line-height: 1.15;
+  margin: 0;
+  font-size: 66px;
+  font-weight: 300;
+}
+
+.lastName {
+  font-weight: 800;
+}
+
+.resume-page p {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+.contact {
+  margin-top: 0;
+  overflow-wrap: anywhere;
+}
+
+.resume-page h2 {
+  font: 24px / 1.5 var(--sans);
+  font-weight: 800;
+  color: var(--text-h);
+  margin: 22px 0 6px;
+
+}
+
+.resume-page h3 {
+  font: 600 16px/1.5 var(--mono);
+  color: var(--text-h);
+  margin: 22px 0 6px;
+  letter-spacing: var(--mono-letter-spacing);
+}
+
+.resume-page ul {
+  padding-left: 22px;
+  margin: 12px 0 26px;
+}
+
+.resume-page li {
+  font-size: inherit;
+  line-height: inherit;
+  margin-bottom: 8px;
+  padding-left: 3px;
+}
+
+.job-meta {
+  margin: 0;
+}
+
+.resume-footer {
+  margin-top: 12px;
+  font-size: 12px;
+}
+
+@media screen and (max-width: 480px) {
+  body.resume-page {
+    font-size: 14px;
+    gap: 30px;
+  }
+
+  .resume-toolbar {
+    font-size: 13px;
+  }
+}
+
+@page {
+  size: letter;
+  margin: 14mm 15mm;
+}
+
+@media print {
+  :root {
+    color-scheme: light;
+    background: white;
+    color: #222;
+    --text: #222;
+    --text-h: #000;
+    /* Prevent mobile text inflation from changing print pagination. */
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+
+  body.resume-page {
+    display: block;
+    max-width: none;
+    min-height: 0;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    font-size: 9pt;
+    line-height: 1.35;
+    letter-spacing: -.25px;
+  }
+
+  .resume-toolbar,
+  .resume-footer,
+  .skip-link {
+    display: none !important;
+  }
+
+  .resume-heading {
+    margin-bottom: 14pt;
+  }
+
+  .resume-heading h1 {
+    font-size: 64pt;
+    margin: 0;
+  }
+
+  .resume-page h2 {
+    font-size: 13pt;
+    margin: 14pt 0 7pt;
+    break-after: avoid;
+  }
+
+  .resume-page h3 {
+    font-size: 10pt;
+    margin: 10pt 0 4pt;
+    break-after: avoid;
+  }
+
+  .resume-page ul {
+    margin: 7pt 0 10pt;
+    padding-left: 15pt;
+  }
+
+  .resume-page li {
+    margin-bottom: 5pt;
+    break-inside: avoid;
+  }
+
+  .resume-page a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .job-meta {
+    break-after: avoid;
+  }
+
+  .job-1 {
+    break-before: page;
+  }
+}
+

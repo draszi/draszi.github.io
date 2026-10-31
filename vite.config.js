@@ -7,6 +7,12 @@ export default defineConfig({
     base: '',
     // plugins: [tailwindcss()],
     build: {
+        rollupOptions: {
+            input: {
+                main: 'index.html',
+                resume: 'resume/index.html',
+            },
+        },
         outDir: 'docs', // Changes output from 'dist' to 'docs'
   },
 })
