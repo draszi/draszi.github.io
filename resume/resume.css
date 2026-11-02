@@ -98,8 +98,8 @@ body.resume-page {
 .resume-heading h1 {
   line-height: 1.15;
   margin: 0;
-  font-size: 66px;
-  font-weight: 300;
+  font-size: clamp(44px, 10vw, 64px);
+  font-weight: 400;
 }
 
 .lastName {
@@ -120,14 +120,14 @@ body.resume-page {
   font: 24px / 1.5 var(--sans);
   font-weight: 800;
   color: var(--text-h);
-  margin: 22px 0 6px;
+  margin: 24px 0 8px;
 
 }
 
 .resume-page h3 {
-  font: 600 16px/1.5 var(--mono);
+  font: 700 18px/1.2 var(--mono);
   color: var(--text-h);
-  margin: 22px 0 6px;
+  margin: 12px 0 4px;
   letter-spacing: var(--mono-letter-spacing);
 }
 
@@ -145,7 +145,11 @@ body.resume-page {
 
 .job-meta {
   margin: 0;
+  color: var(--text-h);
+  line-height: 1.5;
 }
+
+.job h3 { font-size: 20px; margin-top: 22px; }
 
 .resume-footer {
   margin-top: 12px;
@@ -203,7 +207,7 @@ body.resume-page {
   }
 
   .resume-heading h1 {
-    font-size: 64pt;
+    font-size: 48pt;
     margin: 0;
   }
 
@@ -215,7 +219,7 @@ body.resume-page {
 
   .resume-page h3 {
     font-size: 10pt;
-    margin: 10pt 0 4pt;
+    margin: 2pt 0 2pt;
     break-after: avoid;
   }
 
@@ -235,8 +239,11 @@ body.resume-page {
   }
 
   .job-meta {
+    font-size: 10pt;
     break-after: avoid;
   }
+
+  .resume-page .job h3 { font-size: 11pt; margin: 10pt 0 2pt; }
 
   .job-1 {
     break-before: page;

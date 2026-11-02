@@ -1,58 +1,59 @@
-# Arbi Daci
+# ARBI DACI
 
-BSc Computer Science at Toronto Metropolitan University
+**BSc Computer Science** at Toronto Metropolitan University
 
-Toronto, Canada · [arbidaci@gmail.com](mailto:arbidaci@gmail.com) · [arbidaci.com](https://arbidaci.com/)
+Toronto, Canada | [arbidaci@gmail.com](mailto:arbidaci@gmail.com) | [arbidaci.com](https://arbidaci.com/)
 
 ## Skills
 
-### Development & tools
+### BUSINESS ANALYSIS & DELIVERY
 
-JavaScript | SQL | Python | TypeScript | HTML/CSS | VBA | Git & Github | Linux | Shell Scripting PowerApps & Power Automate | Boomi | ServiceNow | JIRA | Salesforce | Docker | UIPath
+Requirements Analysis | Stakeholder Consultation | Application Configuration | Workflow & Data Mapping | Technical Documentation | SDLC | Agile/Scrum
 
-### Concepts
+### TESTING & APPLICATION SUPPORT
 
-QA Testing (A/B, Manual, Regression) | API Integration (REST) | UI/UX | Networking (TCP/IP, HTTP, DNS, Firewalls) | System Flow & Data Mapping | SDLC | Cloud & Virtualization (Azure, AWS, VMware)
+User Acceptance Testing (UAT) | Test Case Development | Manual & Regression Testing | Data Validation & Reconciliation | Root-Cause Analysis | Incident & Problem Management
 
-## Work experience
+### DEVELOPMENT & TECHNICAL TOOLS
 
-### Technical Solutions Consultant
+JavaScript | SQL | Python | HTML/CSS | TypeScript | VBA | REST API Integration | Git/GitHub | Docker | Power Apps | Power Automate | Power BI | Azure AD / SSO | Boomi | Jira | Confluence | SharePoint | ServiceNow | Microsoft Visio | Copilot Studio
 
-Bank Of Montreal - AUG/2025 – Present
+## Work Experience
 
-- Provided enterprise-level technical support for the Coupa Risk Assess (CRA) platform, ensuring stability across distributed banking systems.
-- Owned severity-1 incident triage, driving root-cause analysis, documenting remediation steps, and ensuring permanent fixes were implemented across affected workflows.
-- Developed, debugged, and enhanced JavaScript-based internal applications, resolving defects, improving reliability, and implementing program changes across risk-assessment workflows.
-- Performed manual and regression testing for program changes, validating UI behavior and workflow logic across the CRA platform.
-- Collaborated with cross-functional teams (PM, GTPRM, Design, Procurement, Governance) to ensure release readiness, requirement clarity, and SDLC compliance.
-- Collaborated within Agile delivery teams, participating in sprint planning, backlog refinement, daily standups, and iterative release cycles to ensure clear requirements for production release
-- Designed and deployed PowerApps + Automate solutions that reduced manual workload by 40% and improved operational efficiency across risk-assessment workflows.
-- Devised and built a comprehensive CRA system workflow in Microsoft Visio, improving testing efficiency, issue resolution, and solution design.
-- Leveraged AI to automate data parsing and bulk updates, reducing manual workload by several hours per incident and improving accuracy across operational tasks.
-- Served as AI Specialist for the product delivery team, advising on workflow optimization and integrating Copilot to automate repetitive tasks and enhance team productivity.
-- Created and maintained technical documentation in Sharepoint, including SOPs, runbooks, and knowledge articles.
+### TECHNICAL SOLUTIONS CONSULTANT
 
-### Technical Support Engineer
+**Bank of Montreal (August 2025 - August 2026)**
 
-EnGlobe - FEB/2022 – AUG/2025
+- Partnered with Design and Third-Party Risk stakeholders to clarify requirements and deliver Coupa Risk Assess (CRA) changes within BMO's Product Design & Delivery team.
+- Developed, debugged, and enhanced JavaScript-based programs, translating business requirements into forms, application configuration, workflow logic, and business rules.
+- Assessed requirements and implementation options, advising stakeholders on feasibility, system dependencies, and opportunities to simplify processes.
+- Owned UAT for assigned changes, working with Design to create and maintain test cases, validate business requirements through manual and regression testing, investigate defects, and secure business sign-off.
+- Worked with data governance teams to validate data changes, investigate data quality issues, and confirm data integrity across risk-assessment workflows.
+- Mapped the end-to-end risk-assessment process in Microsoft Visio, documenting business rules, approval paths, and system dependencies to support testing and change analysis.
+- Built a Power Apps application and Power Automate workflows to notify teams of required CRA actions and link users to relevant records, significantly reducing manual workload.
+- Advised teams on responsible AI and Microsoft Copilot use; applied AI-assisted data parsing and bulk updates, saving several hours per incident.
+- Owned severity-1 incident triage for CRA, investigated root causes, coordinated remediation, and documented corrective actions across affected workflows.
+- Coordinated requirements and release readiness across Design, Procurement, Governance, and Third-Party Risk; contributed to Agile planning and backlog refinement.
+- Created and maintained SOPs, runbooks, and knowledge articles in SharePoint to support troubleshooting, knowledge transfer, and consistent operational processes.
 
-- Delivered enterprise application support for ERP and business systems, maintaining 90%+ SLA.
-- Acted as primary escalation point during high-priority production failures, providing real-time updates, validating fixes, and ensuring SLA compliance.
-- Led end-to-end testing identifying defects, optimizing workflows, and reducing testing time by 20%+.
-- Created and maintained technical documentation in Confluence & Sharepoint, including SOPs, runbooks, and knowledge articles.
-- Managed API keys, credentials, DNS/domain configurations, and Azure resources.
-- Implemented SSO integration (Azure AD), strengthening security, and reducing tickets by 50%+.
-- Implemented migration from Azure to the Boomi platform, coordinating tasks and guiding the support team through the transition.
-- Wrote and validated SQL scripts for database updates, and enhancements.
-- Facilitated cross-functional technical sessions to support knowledge transfer and accelerate adoption of new tools and technologies .
-- Worked within an Agile team, contributing to sprint planning, backlog refinement, and delivery.
-- Collaborated with internal teams and escalated to external vendor to identify, test, resolve critical issues, and deploy system upgrade for Vantagepoint ERP and SafeTapp.
-- Co-developed an AR monthly reporting tool using Python and Docker, automating data extraction and improving reporting accuracy.
-- Built a PowerApps application to streamline support workflows, centralize resources, automate SQL script updates, and integrate Power Automate for internal request routing.
-- Owned the internal risk assessment tracker, collaborating with business and technical stakeholders to evaluate and mitigate risks.
+### TECHNICAL SUPPORT ENGINEER
 
-### Application Support Analyst
+**Englobe (February 2022 - August 2025)**
 
-TD Canada Trust - JAN/2021 – JAN/2022
+- Provided bilingual enterprise application support for Deltek Vantagepoint and SafeTapp, maintaining SLA attainment above 90% and serving as a subject matter resource for Vantagepoint's billing module.
+- Led end-to-end application testing, refined and consolidated test cases, identified defects, and reduced testing time by approximately 20%.
+- Coordinated internal teams and vendors on critical incidents and ERP upgrades, communicated progress, and validated fixes against service requirements.
+- Wrote and validated SQL scripts for database updates, and reconciled data across systems to support reporting accuracy and consistency.
+- Built Boomi flows connecting APIs and trained application support colleagues to use Boomi.
+- Implemented Azure AD single sign-on integration, strengthening access management and reducing related support tickets by more than 50%.
+- Built a Power Apps application to centralize support resources, streamline SQL script updates, and route internal requests through Power Automate.
+- Co-developed a monthly accounts receivable reporting tool using Python and Docker, automating data extraction and cross-checking results against billing data.
+- Owned the internal risk assessment tracker, working with business and technical stakeholders to document, evaluate, and address risks.
+- Created SOPs, runbooks, and user guides in Confluence and SharePoint, and delivered knowledge-transfer sessions on applications and support processes.
+- Managed application credentials, API keys, DNS and domain configurations, and Azure resources.
 
-- Provided application support for SAP Ariba
+### APPLICATION SUPPORT ANALYST
+
+**TD Canada Trust (January 2021 - January 2022)**
+
+- Supported SAP Ariba through application-log analysis, issue investigation, reporting, user configuration, and coordination of testing and vendor fixes.
