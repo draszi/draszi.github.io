@@ -4,7 +4,7 @@ BSc Computer Science at Toronto Metropolitan University
 
 Toronto, Canada | arbidaci@gmail.com | arbidaci.com
 
-Skills
+SKILLS
 
 BUSINESS ANALYSIS & DELIVERY
 
@@ -18,7 +18,7 @@ DEVELOPMENT & TECHNICAL TOOLS
 
 JavaScript | SQL | Python | HTML/CSS | TypeScript | VBA | REST API Integration | Git/GitHub | Docker | Power Apps | Power Automate | Power BI | Azure AD / SSO | Boomi | Jira | Confluence | SharePoint | ServiceNow | Microsoft Visio | Copilot Studio
 
-Work Experience
+EXPERIENCE
 
 TECHNICAL SOLUTIONS CONSULTANT
 
@@ -44,6 +44,7 @@ Englobe (February 2022 - August 2025)
 - Led end-to-end application testing, refined and consolidated test cases, identified defects, and reduced testing time by approximately 20%.
 - Coordinated internal teams and vendors on critical incidents and ERP upgrades, communicated progress, and validated fixes against service requirements.
 - Wrote and validated SQL scripts for database updates, and reconciled data across systems to support reporting accuracy and consistency.
+- Wrote VBA scripts to automate recurring transactions and data updates in Deltek Vantagepoint.
 - Built Boomi flows connecting APIs and trained application support colleagues to use Boomi.
 - Implemented Azure AD single sign-on integration, strengthening access management and reducing related support tickets by more than 50%.
 - Built a Power Apps application to centralize support resources, streamline SQL script updates, and route internal requests through Power Automate.
